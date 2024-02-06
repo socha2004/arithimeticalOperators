@@ -10,7 +10,10 @@ int main(){
     cin >> number2;
 
     cout << "Here are the basic operation with the arithimetical operators:" << endl;
-    cout << number1 + number2 << endl;
+    cout << "+: " << number1 + number2 << endl;
+    cout << "-: " << number1 - number2 << endl;
+    cout << "*: " << number1 * number2 << endl;
+    cout << "/: " << number1 / number2 << endl;
     system("PAUSE");    
     return 0;
 };
